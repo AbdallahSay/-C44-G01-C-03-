@@ -234,6 +234,102 @@ namespace Demo2
             //Console.WriteLine($"Is Parsed salary = {isParsedSalary}");
             //Console.WriteLine($"salary = {salary}");
             #endregion
+            #region Operators
+            #region Unary Operator
+            //Unary work on one variable , one operand [  increment - postfix x++ ,  prefix ++x] 
+            //int x = 10;
+            //Console.WriteLine($"x = {x}");//10
+            //Console.WriteLine($"x++ = {x++}");//10
+            //Console.WriteLine($"++x = {++x}");//12
+            //Console.WriteLine($"x = {x}");//12
+            //decrement --x , x--
+            //Console.WriteLine($"x = {x}");//10
+            //Console.WriteLine($"--x = {--x}");//9
+            //Console.WriteLine($"x-- = {x--}");//9
+            //Console.WriteLine($"x = {x}");//8
+
+            #endregion
+            #region Binary & Arthimatic Operator
+            //Binary operator ---> between two variable 
+            //int x = 5 , y = 10;
+            //Console.WriteLine($"Addition {x+y}"); //15
+            //Console.WriteLine($"Substraction {y-x}");//5
+            //Console.WriteLine($"Multiplication {x*y}");//50
+            //Console.WriteLine($"Division {y/x}");//2
+            //Console.WriteLine($"Modulus {x%y}");//5
+
+            #endregion
+            #region Assignment Operators
+            // = , += , -= , /= , *= , %=
+            //int x = 10;
+            ////Simple Assign
+            //x = 20;
+            //Console.WriteLine($"Simple Assignment {x}"); //20
+            ////Addition and Assign
+            //x += 5;
+            //Console.WriteLine($"Addition Assignment {x}");//25
+            ////Substraction and Assign
+            //x-= 5;
+            //Console.WriteLine($"Substraction Assignment {x}");//20
+            ////Multiplication and Assign
+            //x*= 2;
+            //Console.WriteLine($"Multiplication Assignment {x}");//40
+            ////Division and Assign
+            //x /= 2;
+            //Console.WriteLine($"Division Assignment {x}");//20
+            ////Modules and Assign
+            //x %= 3;
+            //Console.WriteLine($"Modules Assignment {x}");//2
+
+            #endregion
+            #region Relational Operators
+            //Return bool (== , != , >= , <= , > , <)
+            //int x = 10, y = 20;
+            //Console.WriteLine($"X == y : {x == y}");//false
+            //Console.WriteLine($"X != y : {x != y}");//True
+            //Console.WriteLine($"X >= y : {x >= y}");//false
+            //Console.WriteLine($"X <= y : {x <= y}");//True
+            //Console.WriteLine($"X > y : {x > y}");//false
+            //Console.WriteLine($"X < y : {x < y}");//true
+            #endregion
+            #region Logical Operators
+            // ! , && , || (Short Circuit)
+            //Not ! (بتعكس)
+            //bool x = true , y = false;
+            //Console.WriteLine($"not x: {!x}");//false
+            ////And &&(short circuit)
+            //Console.WriteLine($"X and y : {x && y}");//false
+            ////OR ||
+            //Console.WriteLine($"X OR y : {x || y}");//true
+            #endregion
+            #region Bitiwise Operators
+            // | , & , ^ , ~ , << , >>
+            //int x = 5; //0101
+            //int y = 6;//0110
+            //Console.WriteLine($"X Bitiwise OR Y : {x|y}");//0111(7)
+            //Console.WriteLine($"X Bitiwise AND Y : {x&y}");//0100(4)
+            //Console.WriteLine($"X Bitiwise XOR  Y : {x^y}");//0011(3)
+            //Console.WriteLine($"X Bitiwise Not Y : {~y}");// 2's complement
+            //Console.WriteLine($"X Bitiwise Not X : {~x}");// 2's complement
+            //Console.WriteLine($"X Bitiwise Shift left  X : {x<<1}");//1010(10)
+            //Console.WriteLine($"X Bitiwise Shift left  X : {x>>1}");//0010(2)
+            #endregion
+            #region Ternary Operators
+            // = ? : 
+            //int a = 10 , b = 20;
+            //String Result;
+            //Result = (a > b) ? "a is greater " :(a == b )? "a equal b":"b is grater";
+            //Console.WriteLine(Result);
+
+            #endregion
+            #region Priority Operatores
+            int x = 10 , y = 20 , z = 30 ;
+            int equetion = x + y++ + ++z;
+            Console.WriteLine(equetion); // 10 + 20 + 31 = 61
+            Console.WriteLine(y);//21
+
+            #endregion
+            #endregion
             #endregion
 
         }
