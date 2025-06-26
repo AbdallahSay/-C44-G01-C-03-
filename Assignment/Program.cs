@@ -53,7 +53,21 @@ namespace Assignment
 
 
             #endregion
-            
+            #region 6-	 Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            //Point p1 = new Point() { x = 10, y = 20 };
+            //Point p2 = new Point() {x = 30, y = 40 };
+            //Console.WriteLine(p1.x);//10
+            //Console.WriteLine(p2.x);//30
+            //p1 = p2;//( Assign Refrence of p2 to p1)
+            ////Console.WriteLine(p1.x);//30
+            ////Console.WriteLine(p2.x);//30
+            //p2.x = 50;
+            //Console.WriteLine(p1.x);//50
+            //Console.WriteLine(p2.x);//50
+            //p1 old object is a nureacable object( x= 10 , y = 20)
+
+
+            #endregion
         }
     }
 }
