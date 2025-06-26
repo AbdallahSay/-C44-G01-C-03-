@@ -76,9 +76,29 @@ namespace Demo2
             //object name1 = "Abdallah";
             //object name2 = "Abdallah";
             //Console.WriteLine(name1.Equals(name2));
-            object name1 = "Abdallah";
-            object name2 = "abdallah";//true 
-            Console.WriteLine(name1.Equals(name2)); // false (Case sensitive)
+            //object name1 = "Abdallah";
+            //object name2 = "abdallah";
+            //Console.WriteLine(name1.Equals(name2)); // false (Case sensitive)
+            #endregion
+            #region GetHashCode
+            //Generate based on Reference address
+            //Point p1 = new Point() { x = 10, y = 20 };
+            //Point p2 = new Point() { y = 10, x = 20 };
+            //Console.WriteLine(p1.GetHashCode());
+            //Console.WriteLine(p2.GetHashCode());
+            //p1 = p2;
+            //Console.WriteLine(p1.GetHashCode());
+            //Console.WriteLine(p2.GetHashCode());
+            // int return value
+            //object num = 10;
+            //object num2 = 12;
+            //Console.WriteLine(num.GetHashCode());
+            //Console.WriteLine(num2.GetHashCode());
+            object num3 = 12.2f;
+            Console.WriteLine(num3.GetHashCode());// ?? 
+            object name= "Abdol";
+            Console.WriteLine(name.GetHashCode());
+
             #endregion
             #endregion
 
