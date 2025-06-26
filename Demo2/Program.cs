@@ -144,6 +144,51 @@ namespace Demo2
             //Console.WriteLine($"{num:c}");
 
             #endregion
+            #region Casting
+            //implict casting [Save]
+            //int x = 1000233;
+            //long y = x;
+            //Console.WriteLine(y); //[Save]
+            //explicit casting
+            //long x = 123454423;
+            //int y = (int)x;
+            //Console.WriteLine(y); // تمام علشان الرقم قادر يتخزن في 4 بايت
+            //long x = 1234544213244112423;
+            //int y = (int)x;
+            //Console.WriteLine(y); // Arithmatic Overflow
+            //checked
+            //{
+            //    long x = 1234544213244112423;
+            //    int y = (int)x;
+            //    unchecked
+            //    {
+            //        Console.WriteLine(y); // throw exception
+            //    }
+            // Min - Max
+            //long x = 123454;
+            //if(x > int.MaxValue || x < int.MinValue)
+            //{
+            //    Console.WriteLine("Exception");
+            //}
+            //else
+            //{
+            //    int y = (int)x;
+            //    Console.WriteLine(y);
+            //}
+            //object num = 1234;
+            //if(num.GetType() == typeof(int))
+            //{
+            //    int y = (int)num;
+            //    Console.WriteLine(y);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Exception");
+            //}
+
+            //}
+
+            #endregion
             #endregion
 
         }
