@@ -58,9 +58,27 @@ namespace Demo2
             //Most type override this method
             //int x = 10;
             //Console.WriteLine(x.ToString()); // 10 (1/ Call ToSring object , 2/ Call back Tostring Int32 because Behavior struct Types override Tostring dafault behavior)
-            string name;
-            name = "Abdol";
-            Console.WriteLine(name.ToString()); // abdol (1/ Call ToSring object , 2/ Call back Tostring string type because Behavior string Types override Tostring dafault behavior)
+            //string name;
+            //name = "Abdol";
+            //Console.WriteLine(name.ToString()); // abdol (1/ Call ToSring object , 2/ Call back Tostring string type because Behavior string Types override Tostring dafault behavior)
+            //#endregion
+            #endregion
+            #region Equals
+            //Point p1 = new Point() { x = 10, y = 20 };
+            //Point p2 = new Point() { y = 10, x = 20 };
+            //Console.WriteLine(p1.Equals(p2)); // Compare Reference (Return False)
+            //p1 = p2; // reference p1 = reference p2
+            //Console.WriteLine(p1.Equals(p2)); // true
+            // Override String ,  value type to compare values
+            //object num1 = 20;
+            //object num2 = 20;
+            //Console.WriteLine(num1.Equals(num2)); // true compare based on value
+            //object name1 = "Abdallah";
+            //object name2 = "Abdallah";
+            //Console.WriteLine(name1.Equals(name2));
+            object name1 = "Abdallah";
+            object name2 = "abdallah";//true 
+            Console.WriteLine(name1.Equals(name2)); // false (Case sensitive)
             #endregion
             #endregion
 
