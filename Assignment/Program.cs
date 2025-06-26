@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.Diagnostics.Metrics;
+using System.Drawing;
 
 namespace Assignment
 {
@@ -89,6 +90,17 @@ namespace Assignment
             //bool isParsedTime = double.TryParse(Console.ReadLine(), out time);
             //double interset = (salary * rate * time) / 100;
             //Console.WriteLine($"Your interset = {interset}");
+
+            #endregion
+            #region 9-	Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. The formula for BMI is BMI = (Weight) / (Height * Height)
+            //Console.WriteLine("Enter  weight in kilograms");
+            //Double weight;
+            //bool isParsedWeight = double.TryParse(Console.ReadLine(), out weight);
+            //Console.WriteLine("Enter  height in meters");
+            //Double height;
+            //bool isParsedHeight = double.TryParse(Console.ReadLine(), out height);
+            //Double BMI = weight / (height * height);
+            //Console.WriteLine($"BMI : {BMI}");
 
             #endregion
         }
