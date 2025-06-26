@@ -76,6 +76,21 @@ namespace Assignment
             //Console.WriteLine($"My name is : {fName} {lName}");
 
             #endregion
+            #region 8-	Write a program that calculates the simple interest given the principal amount, rate of interest, and time. The formula for simple interest is Interest = (principal * rate * time) / 100.
+            //Console.WriteLine("please Enter Data");
+            //Console.WriteLine("Enter principal amount");
+            //double salary;
+            //bool isParsedSalary = double.TryParse(Console.ReadLine(), out salary);
+            //Console.WriteLine("Enter rate of interest");
+            //double rate;
+            //bool isParsedInterset = double.TryParse(Console.ReadLine(), out rate);
+            //Console.WriteLine("Enter time");
+            //double time;
+            //bool isParsedTime = double.TryParse(Console.ReadLine(), out time);
+            //double interset = (salary * rate * time) / 100;
+            //Console.WriteLine($"Your interset = {interset}");
+
+            #endregion
         }
     }
 }
