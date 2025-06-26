@@ -323,11 +323,26 @@ namespace Demo2
 
             #endregion
             #region Priority Operatores
-            int x = 10 , y = 20 , z = 30 ;
-            int equetion = x + y++ + ++z;
-            Console.WriteLine(equetion); // 10 + 20 + 31 = 61
-            Console.WriteLine(y);//21
+            //int x = 10 , y = 20 , z = 30 ;
+            //int equetion = x + y++ + ++z;
+            //Console.WriteLine(equetion); // 10 + 20 + 31 = 61
+            //Console.WriteLine(y);//21
 
+            #endregion
+            #region String Formatting
+            //string intarpolation
+            //Console.WriteLine($"{x} + {y} = {result}");
+            ////Format
+            //int x = 5, y = 10, result = x + y;
+            //string msg = String.Format("{0} + {1} = {2}", x, y, result);
+            //Console.WriteLine(msg);
+            //Composite Format
+            //int x = 5, y = 10, result = x + y;
+            //Console.WriteLine("{0} + {1} = {2}" , x , y , result);
+            //Concat
+            //int x = 5, y = 10, result = x + y;
+            //Console.WriteLine(x + " + "+ y +" = "+  result);
+            // \n new line , \t tab , @ skip meaning
             #endregion
             #endregion
             #endregion
