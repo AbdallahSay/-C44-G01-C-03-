@@ -103,6 +103,17 @@ namespace Assignment
             //Console.WriteLine($"BMI : {BMI}");
 
             #endregion
+            #region 10-	Write a program that takes the date from the user and displays it in various formats using string interpolation.
+            //Console.WriteLine("Enter your day number");
+            //bool parsedDay = int.TryParse(Console.ReadLine() , out int day);
+            //Console.WriteLine("Enter your month number");
+            //bool parsedMonth = int.TryParse(Console.ReadLine() , out int Month);
+            //Console.WriteLine("Enter your Year number");
+            //bool parsedYear= int.TryParse(Console.ReadLine() , out int Year);
+            //Console.WriteLine($"Today's data : {day} , {Month} , {Year} ");
+            //Console.WriteLine($"Today's data : {day} / {Month} / {Year} ");
+            //Console.WriteLine($"Today's data : {day} - {Month} - {Year} ");
+            #endregion
         }
     }
 }
