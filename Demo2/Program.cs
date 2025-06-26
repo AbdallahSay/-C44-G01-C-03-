@@ -344,6 +344,46 @@ namespace Demo2
             //Console.WriteLine(x + " + "+ y +" = "+  result);
             // \n new line , \t tab , @ skip meaning
             #endregion
+            #region Conditional Statement
+            //if else
+            //Console.WriteLine("Please Enter Month number");
+            //int month;
+            //bool falg = int.TryParse(Console.ReadLine(), out month);
+            //if(month == 1)
+            //    Console.WriteLine("January");
+            //else if (month == 2)
+            //{
+            //    Console.WriteLine("February");
+            //}
+            //else if (month == 3)
+            //{
+            //    Console.WriteLine("March");
+            //}
+            //else
+            //    Console.WriteLine("Invalid");
+            //Switch
+            //Console.WriteLine("Please Enter Month number");
+            //int month;
+            //bool falg = int.TryParse(Console.ReadLine(), out month);
+            //switch (month)
+            //{
+            //    case 1:
+                   
+            //        Console.WriteLine("January");
+            //        break;
+            //    case 2:
+                    
+            //        Console.WriteLine("February");
+            //            break;
+            //    case 3:
+            //        Console.WriteLine("March");
+            //        break;
+                   
+                    
+            //}
+
+
+            #endregion
             #endregion
             #endregion
 
