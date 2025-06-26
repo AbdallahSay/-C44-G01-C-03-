@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Drawing;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -36,7 +38,22 @@
             //Console.WriteLine("Original : "+originalText);
             //Console.WriteLine("Extracted : "+extrected);
             #endregion
+            #region 5-     Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            //int x = 10;
+            //int y = 20;
+            ////Console.WriteLine(x);//10
+            ////Console.WriteLine(y);//20
+            //x = y;// 20 20
+            ////Console.WriteLine(x);//20
+            ////Console.WriteLine(y);//20
+            //y = 30;
+            //Console.WriteLine(x);//20
+            //Console.WriteLine(y);//30
+            ////value type (بنساوي value  )
 
+
+            #endregion
+            
         }
     }
 }
