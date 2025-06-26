@@ -19,8 +19,18 @@
             //int Number = Convert.ToInt32(name);
             //Console.WriteLine(Number); // throw format exception
             #endregion
+            #region 3 -    Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+            //float num1 = 3.5f;
+            //double num2 = 12.5;
+            //Console.WriteLine($"num1 + num2 : {num1 + num2}");//16
+            //float num1 = 3;
+            //float num2 = 2;
+            //Console.WriteLine($"num1 / num2 : {num1 / num2}"); // 1.5
+            //Console.WriteLine($"num1 * num2 : {num1 * num2}"); // 6
+            //Console.WriteLine($"num1 - num2 : {num1 - num2}"); //1
 
-           
+            #endregion
+
 
         }
     }
