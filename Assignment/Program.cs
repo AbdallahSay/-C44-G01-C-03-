@@ -30,7 +30,12 @@
             //Console.WriteLine($"num1 - num2 : {num1 - num2}"); //1
 
             #endregion
-
+            #region 4-	Write C# program that Extract a substring from a given string.
+            //string originalText = "Luka is the best";
+            //string extrected = originalText.Substring(0, 4);
+            //Console.WriteLine("Original : "+originalText);
+            //Console.WriteLine("Extracted : "+extrected);
+            #endregion
 
         }
     }
