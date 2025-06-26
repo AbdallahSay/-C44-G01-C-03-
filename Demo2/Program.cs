@@ -94,11 +94,21 @@ namespace Demo2
             //object num2 = 12;
             //Console.WriteLine(num.GetHashCode());
             //Console.WriteLine(num2.GetHashCode());
-            object num3 = 12.2f;
-            Console.WriteLine(num3.GetHashCode());// ?? 
-            object name= "Abdol";
-            Console.WriteLine(name.GetHashCode());
+            //object num3 = 12.2f;
+            //Console.WriteLine(num3.GetHashCode());// ?? 
+            //object name= "Abdol";
+            //Console.WriteLine(name.GetHashCode());
 
+
+            #endregion
+            #region GetType
+            //Point p1 = new Point() { x = 0, y = 0 };    
+            //Point p2 = new Point() { y = 0, x = 0 };
+            //Console.WriteLine(p1.GetType()); //Demo2.point ()
+            //object num = 20;
+            //Console.WriteLine(num.GetType());//System.Int32(BCL)
+            //object name = "Abdol"; //System.String(BCL)
+            //Console.WriteLine(name.GetType());
             #endregion
             #endregion
 
