@@ -189,6 +189,51 @@ namespace Demo2
             //}
 
             #endregion
+            #region Convert & Parse & TryParse
+            //Conver [Class]
+            //EX: take name and age and salary from user and print
+            //Console.WriteLine("Plase Enter Your Data");
+            //Console.WriteLine("Enter Your Name");
+            //string name = Console.ReadLine(); // No problem 
+            //Console.WriteLine("Enter Your Age");
+            //int age = Convert.ToInt32( Console.ReadLine());
+            //Console.WriteLine("Enter Your salary");
+            //double salary =Convert.ToDouble( Console.ReadLine());
+            //Console.Clear();
+            //Console.Beep(100, 1500);
+            //Console.WriteLine($"Name   : {name}");
+            //Console.WriteLine($"Age    : {age}");
+            //Console.WriteLine($"Salary : {salary}");
+            //Parse
+            //EX: take name and age and salary from user and print
+            //Console.WriteLine("Plase Enter Your Data");
+            //Console.WriteLine("Enter Your Name");
+            //string name = Console.ReadLine(); // No problem 
+            //Console.WriteLine("Enter Your Age");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Your salary");
+            //double salary = double.Parse(Console.ReadLine());
+            //Console.Clear();
+            //Console.Beep(100, 1500);
+            //Console.WriteLine($"Name   : {name}");
+            //Console.WriteLine($"Age    : {age}");
+            //Console.WriteLine($"Salary : {salary}");
+            //tryparse
+            //Console.WriteLine("Plase Enter Your Data");
+            //Console.WriteLine("Enter Your Name");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Enter Your Age");
+            //int age; // declare varible
+            //bool isParsedAge = int.TryParse(Console.ReadLine(), out age); // (out age) ageوبعدين حطها في int وحولها ل ReadLIne يعني خد القيمه اللي هتجيلك من 
+            //Console.WriteLine("Enter your Salary");
+            //bool isParsedSalary = double.TryParse(Console.ReadLine(), out double salary);
+            //Console.Clear();
+            //Console.WriteLine($"Name = {name}");
+            //Console.WriteLine($"Is Parsed Age = {isParsedAge}");
+            //Console.WriteLine($"Age = {age}");
+            //Console.WriteLine($"Is Parsed salary = {isParsedSalary}");
+            //Console.WriteLine($"salary = {salary}");
+            #endregion
             #endregion
 
         }
