@@ -110,6 +110,40 @@ namespace Demo2
             //object name = "Abdol"; //System.String(BCL)
             //Console.WriteLine(name.GetType());
             #endregion
+            #region Fraction &Discard
+            //float (Size =  4 byte , 7 digits)
+            //float num = 1023.444f;
+            //Console.WriteLine(num);//1023.444
+            //num = 1.22234566776654343f;
+            //Console.WriteLine(num);//1.2223457(هيطلع 7 ارقام واخر رقم هيقربه)
+            //float num = 10;
+            //Console.WriteLine(num);
+            //float Result = 3 / 2;
+            //Console.WriteLine(Result);//1 (Logical error -------- int ل implict cast هيعمل  )
+            //float Result1 = 3.0f / 2;
+            //Console.WriteLine(Result1);
+            /**/
+            //Double (Default , Most commen used , 8 byte , 15-16 digits)
+            //double number = 333_333_333_2.333_332;
+            //Console.WriteLine(number);
+            //number = 33333322.23456789699;
+            //Console.WriteLine(number);
+            //decimal (16 byte , 28-29 digits)
+            //decimal number = 12.555m;
+            //Console.WriteLine(number);
+            //number = 222.33333333455555555555555555555555555555555555322222222222M;
+            //Console.WriteLine(number);
+            /**/
+            //Dicard(_)  ,Digit sperator (_)
+            //int num = 123_343_222;
+            //Console.WriteLine(num);123343222 Digit sperator
+            //int.TryParse(Console.ReadLine(), out _); // تجاهلنا parameter
+            /*/*/
+            //Format $
+            //int num = 100_000_000;
+            //Console.WriteLine($"{num:c}");
+
+            #endregion
             #endregion
 
         }
